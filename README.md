@@ -1,1 +1,1 @@
-# third-party application based on Seeds API
+# third-party apps based on Seeds API
