@@ -22,7 +22,7 @@ Content-type: application/json
 |字段|返回值|备注|
 |-----|-----|------|
 |code|0或-1|用于判断请求是否成功，成功为0，失败为-1|
-|message|success或faled|保留字段，请勿用于判断成功或失败|
+|message|success或failed|保留字段，请勿用于判断成功或失败|
 |data|{}|保留字段，当前为空|
 
 
@@ -46,7 +46,7 @@ Content-Type: image/jpeg
 |字段|返回值|备注|
 |-----|-----|------|
 |code|0或-1|用于判断请求是否成功，成功为0，失败为-1|
-|message|success或faled|保留字段，请勿用于判断成功或失败|
+|message|success或failed|保留字段，请勿用于判断成功或失败|
 |data|{}|保留字段，当前为空|
 
 
