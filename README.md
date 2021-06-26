@@ -10,7 +10,8 @@ Seeds API采用典型的POST请求方法，支持将文本和图片发送到Seed
 1. 如果是文本，请使用content字段名，发送json格式
 
 ```
-POST https://seedsnote.com/api/msg/your-api-token
+POST /api/msg/your-api-token HTTP/1.1
+Host: seedsnote.com
 Content-type: application/json
 {
     "content": "Hello, #flomo https://flomoapp.com"
@@ -48,8 +49,6 @@ Content-Type: image/jpeg
 |code|0或-1|用于判断请求是否成功，成功为0，失败为-1|
 |message|success或failed|保留字段，请勿用于判断成功或失败|
 |data|{}|保留字段，当前为空|
-
-
 
 
 ![Frame 46](https://user-images.githubusercontent.com/67967374/123350924-96fa7200-d58e-11eb-9410-d8015228e57e.png) 
