@@ -18,7 +18,7 @@ Content-type: application/json
 }
 ```
 
-请求响应: 接口返回数据为json,
+请求响应: 接口返回数据为json格式
 
 |字段|返回值|备注|
 |-----|-----|------|
@@ -42,7 +42,7 @@ Content-Type: image/jpeg
 ----WebKitFormBoundary7MA4YWxkTrZu0gW
 ```
 
-请求响应: 接口返回数据为json,
+请求响应: 接口返回数据为json格式
 
 |字段|返回值|备注|
 |-----|-----|------|
