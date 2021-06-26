@@ -1,7 +1,7 @@
 
 ### Try it now
 
-如果你想找寻好的第三方工具，或提交你的作品，请移步到 [Discussion](https://github.com/seedsnote/third-party/discussions/categories/ideas-tools)
+如果你想找寻好用的Seeds思记第三方工具，或提交你的作品，请移步到 [Discussion](https://github.com/seedsnote/third-party/discussions/categories/ideas-tools)
 
 ### Documentation
 
