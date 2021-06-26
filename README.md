@@ -10,7 +10,7 @@ Seeds API采用典型的POST请求方法，支持将文本和图片发送到Seed
 1. 如果是文本，请使用content字段名，发送json格式
 
 ```
-POST https://seedsnote.com/api/msg/yourApiAddress
+POST https://seedsnote.com/api/msg/your-api-token
 Content-type: application/json
 {
     "content": "Hello, #flomo https://flomoapp.com"
@@ -28,12 +28,18 @@ Content-type: application/json
 2. 如果是图片，请选择form-data格式，并将字段名
 
 ```
-POST https://seedsnote.com/api/msg/yourApiAddress
-Content-type: application/form-data
-{
-    "file": "drawing.jpg"
-}
+POST /api/msg/your-api-token HTTP/1.1
+Host: seedsnote.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample.jpg"
+Content-Type: image/jpeg
+
+(data)
+----WebKitFormBoundary7MA4YWxkTrZu0gW
 ```
+
 请求响应: 接口返回数据为json,
 
 |字段|返回值|备注|
