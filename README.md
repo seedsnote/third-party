@@ -1,4 +1,9 @@
+
+### Try it now
+
 如果你想找寻好的第三方工具，或提交你的作品，请移步到 [Discussion](https://github.com/seedsnote/third-party/discussions/categories/ideas-tools)
+
+### Documentation
 
 Seeds API采用典型的POST请求方法，支持将文本和图片发送到Seeds
 
