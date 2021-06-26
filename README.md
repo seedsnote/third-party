@@ -17,16 +17,30 @@ Content-type: application/json
 }
 ```
 
+请求响应: 接口返回数据为json,
+
+|字段|返回值|备注|
+|-----|-----|------|
+|code|0或-1|用于判断请求是否成功，成功为0，失败为-1|
+|message|success或faled|保留字段，请勿用于判断成功或失败|
+|data|{}|保留字段，当前为空|
+
 2. 如果是图片，请选择form-data格式，并将字段名
 
 ```
-
 POST https://seedsnote.com/api/msg/yourApiAddress
 Content-type: application/form-data
 {
     "file": "drawing.jpg"
 }
 ```
+请求响应: 接口返回数据为json,
+
+|字段|返回值|备注|
+|-----|-----|------|
+|code|0或-1|用于判断请求是否成功，成功为0，失败为-1|
+|message|success或faled|保留字段，请勿用于判断成功或失败|
+|data|{}|保留字段，当前为空|
 
 
 ![Frame 46](https://user-images.githubusercontent.com/67967374/123350924-96fa7200-d58e-11eb-9410-d8015228e57e.png) 
