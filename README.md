@@ -8,6 +8,7 @@
 Seeds API采用典型的POST请求方法，支持将文本和图片发送到Seeds
 
 1. 如果是文本，请使用content字段名，发送json格式，用shell和python举例
+
 curl示例
 ```
 curl --location --request POST 'https://seedsnote.com/api/msg/your-api-token' \
@@ -42,6 +43,7 @@ print(response.text.encode('utf8'))
 
 
 2. 如果是图片，请选择form-data格式，用shell和python为例：
+
 curl示例
 ```
 curl --location --request POST 'https://seedsnote.com/api/msg/your-api-token' \
