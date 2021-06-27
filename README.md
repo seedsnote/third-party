@@ -53,7 +53,7 @@ python示例
 ```
 import requests
 
-url = "https://seedsnote.com/api/msg/asdfasdfasdaasdfasdfas1234"
+url = "https://seedsnote.com/api/msg/your-api-token"
 
 payload = {}
 files = [
