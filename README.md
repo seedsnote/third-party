@@ -14,7 +14,7 @@ POST /api/msg/your-api-token HTTP/1.1
 Host: seedsnote.com
 Content-type: application/json
 {
-    "content": "Hello, #flomo https://flomoapp.com"
+    "content": "Hello"
 }
 ```
 
